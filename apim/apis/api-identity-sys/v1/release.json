@@ -1,6 +1,6 @@
 {
   "artifact_release_repo": "wso2-cicd/api-identity-sys",
-  "release_version": "v0.0",
+  "release_version": "v1.2",
   "pull_request": "",
   "pull_request_title": "",
   "pull_request_merged_at": "",
