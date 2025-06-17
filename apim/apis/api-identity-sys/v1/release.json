@@ -7,6 +7,6 @@
   "pullRequest": {
     "url": "https://github.com/wso2-cicd/api-identity-sys/pull/18",
     "title": "Include mobile number in the POST /user resource",
-    "mergedAt": "2024-08-27T19:26:10Z"
+    "mergedAt": "2024-08-27T19:26:11Z"
   }
 }
