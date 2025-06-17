@@ -1,12 +1,12 @@
 {
   "apiRepository": "wso2-cicd/api-identity-sys",
-  "releaseVersion": "v1.2",
+  "releaseVersion": "v1.3",
   "artifacts": [
     "Identity-System.zip"
   ],
   "pullRequest": {
-    "url": "https://github.com/wso2-cicd/api-identity-sys/pull/18",
-    "title": "Include mobile number in the POST /user resource",
-    "mergedAt": "2024-08-27T19:23:11Z"
+    "url": "",
+    "title": "",
+    "mergedAt": ""
   }
 }
