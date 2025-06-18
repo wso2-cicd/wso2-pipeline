@@ -2,7 +2,7 @@
   "apiRepository": "wso2-cicd/api-identity-sys",
   "releaseVersion": "v1.5",
   "artifacts": [
-    "Identity-System.zip"
+    "api-identity-sys.zip"
   ],
   "pullRequest": {
     "url": "https://github.com/wso2-cicd/api-identity-sys/pull/3",
