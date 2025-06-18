@@ -1,6 +1,6 @@
 {
   "apiRepository": "wso2-cicd/policy-mediation",
-  "releaseVersion": "v1.1",
+  "releaseVersion": "v1.2",
   "artifacts": [
     "policy-mediation.zip"
   ],
