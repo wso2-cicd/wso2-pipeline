@@ -1,0 +1,30 @@
+name: CD - APIM-Policies
+
+on:
+  push:
+    branches:
+      - qa
+    paths:
+      - apim/policies/mediation/**/release.json
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy_apim_policies:
+    name: Deploy APIM Policies
+    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-mediation-policies.yml@main
+    with:
+      sourceBranch: qa
+      destinationBranch: uat
+      sourceEnv: qa
+      destinationEnv: uat
+      apiCtlEnv: qa
+    secrets:
+      ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
+      ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
+      ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
+      apimAdminUsername: ${{ secrets.WSO2_APIM_QA_ADMIN_USERNAME }}
+      apimAdminPassword: ${{ secrets.WSO2_APIM_QA_ADMIN_PASSWORD }}
