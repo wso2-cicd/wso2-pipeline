@@ -1,6 +1,6 @@
 {
   "apiRepository": "wso2-cicd/policy-rate-limiting",
-  "releaseVersion": "v0.0",
+  "releaseVersion": "v1.2",
   "artifacts": [
     "policy-rate-limiting.zip"
   ],
