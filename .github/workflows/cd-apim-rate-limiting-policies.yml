@@ -22,7 +22,7 @@ jobs:
       sourceEnv: prod
       destinationEnv: none
       apiCtlEnv: prod
-      openPr: false
+      createPromotionPr: false
     secrets:
       ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
       ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
