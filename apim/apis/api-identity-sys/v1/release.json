@@ -1,6 +1,6 @@
 {
   "artifactRepository": "wso2-cicd/api-identity-sys",
-  "releaseVersion": "v1.7",
+  "releaseVersion": "v1.9",
   "artifacts": [
     "api-identity-sys.zip"
   ],
