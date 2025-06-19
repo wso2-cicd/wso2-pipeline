@@ -1,0 +1,30 @@
+name: CD - APIM-APIs
+
+on:
+  push:
+    branches:
+      - uat
+    paths:
+      - apim/apis/**/release.json
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy_apim_api:
+    name: Deploy APIM API
+    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
+    with:
+      sourceBranch: uat
+      destinationBranch: prod
+      sourceEnv: uat
+      destinationEnv: prod
+      apiCtlEnv: uat
+    secrets:
+      ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
+      ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
+      ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
+      apimAdminUsername: ${{ secrets.WSO2_APIM_UAT_ADMIN_USERNAME }}
+      apimAdminPassword: ${{ secrets.WSO2_APIM_UAT_ADMIN_PASSWORD }}
