@@ -1,6 +1,6 @@
 {
   "artifactRepository": "wso2-cicd/api-profile-prc",
-  "releaseVersion": "v0.0",
+  "releaseVersion": "v1.1",
   "artifacts": [
     "api-profile-prc.zip"
   ],
