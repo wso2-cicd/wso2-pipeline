@@ -1,11 +1,11 @@
-name: CD - APIM-Mediation-Policies
+name: CD - APIM-Rate-Limiting-Policies
 
 on:
   push:
     branches:
       - dev
     paths:
-      - apim/policies/mediation/**/release.json
+      - apim/policies/rate-limiting/**/release.json
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy_apim_policies:
     name: Deploy APIM Policies
-    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-mediation-policies.yml@main
+    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-rate-limiting-policies.yml@main
     with:
       sourceBranch: dev
       destinationBranch: qa
