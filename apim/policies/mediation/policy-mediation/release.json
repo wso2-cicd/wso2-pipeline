@@ -1,0 +1,12 @@
+{
+  "apiRepository": "wso2-cicd/policy-mediation",
+  "releaseVersion": "v1.6",
+  "artifacts": [
+    "policy-mediation.zip"
+  ],
+  "pullRequest": {
+    "url": "",
+    "title": "",
+    "mergedAt": ""
+  }
+}
