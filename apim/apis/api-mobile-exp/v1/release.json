@@ -1,6 +1,6 @@
 {
   "artifactRepository": "wso2-cicd/api-mobile-exp",
-  "releaseVersion": "v2.4",
+  "releaseVersion": "v2.5",
   "artifacts": [
     "api-mobile-exp.zip"
   ],
