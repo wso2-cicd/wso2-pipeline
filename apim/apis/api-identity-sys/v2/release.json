@@ -1,12 +1,12 @@
 {
   "artifactRepository": "wso2-cicd/api-identity-sys",
-  "releaseVersion": "v1.9",
+  "releaseVersion": "v2.0",
   "artifacts": [
     "api-identity-sys.zip"
   ],
   "pullRequest": {
-    "url": "",
-    "title": "",
-    "mergedAt": ""
+    "url": "https://github.com/wso2-cicd/api-identity-sys/pull/5",
+    "title": "Raj rajaratnam patch 4",
+    "mergedAt": "2025-06-20T03:35:35Z"
   }
 }
