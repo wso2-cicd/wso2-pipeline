@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "wso2-cicd/api-profile-prc",
+  "releaseVersion": "r1",
+  "artifacts": [
+    "api-profile-prc.zip"
+  ],
+  "pullRequest": {
+    "url": "",
+    "title": "",
+    "mergedAt": ""
+  }
+}
