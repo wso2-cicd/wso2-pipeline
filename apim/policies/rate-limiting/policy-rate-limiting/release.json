@@ -1,12 +1,12 @@
 {
   "artifactRepository": "wso2-cicd/policy-rate-limiting",
-  "releaseVersion": "v1.4",
+  "releaseVersion": "r1",
   "artifacts": [
     "policy-rate-limiting.zip"
   ],
   "pullRequest": {
-    "url": "https://github.com/wso2-cicd/policy-rate-limiting/pull/1",
-    "title": "Update Application-100PerMin.yaml",
-    "mergedAt": "2025-06-19T12:32:36Z"
+    "url": "",
+    "title": "",
+    "mergedAt": ""
   }
 }
