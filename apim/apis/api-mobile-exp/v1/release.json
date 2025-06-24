@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "wso2-cicd/api-mobile-exp",
+  "releaseVersion": "r1",
+  "artifacts": [
+    "api-mobile-exp.zip"
+  ],
+  "pullRequest": {
+    "url": "https://github.com/wso2-cicd/api-mobile-exp/pull/1",
+    "title": "Update swagger.yaml",
+    "mergedAt": "2025-06-24T02:38:06Z"
+  }
+}
