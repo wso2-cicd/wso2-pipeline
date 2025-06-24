@@ -1,12 +1,12 @@
 {
   "artifactRepository": "wso2-cicd/policy-mediation",
-  "releaseVersion": "v1.8",
+  "releaseVersion": "r1",
   "artifacts": [
     "policy-mediation.zip"
   ],
   "pullRequest": {
-    "url": "https://github.com/wso2-cicd/policy-mediation/pull/4",
-    "title": "Update addQueryParam.yaml",
-    "mergedAt": "2025-06-19T12:29:51Z"
+    "url": "",
+    "title": "",
+    "mergedAt": ""
   }
 }
