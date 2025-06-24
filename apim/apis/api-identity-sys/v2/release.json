@@ -1,12 +1,12 @@
 {
   "artifactRepository": "wso2-cicd/api-identity-sys",
-  "releaseVersion": "v2.3",
+  "releaseVersion": "r2",
   "artifacts": [
     "api-identity-sys.zip"
   ],
   "pullRequest": {
-    "url": "https://github.com/wso2-cicd/api-identity-sys/pull/8",
-    "title": "Update swagger.yaml",
-    "mergedAt": "2025-06-22T13:08:29Z"
+    "url": "",
+    "title": "",
+    "mergedAt": ""
   }
 }
