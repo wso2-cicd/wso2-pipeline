@@ -1,12 +1,12 @@
 {
   "artifactRepository": "wso2-cicd/policy-mediation",
-  "releaseVersion": "r1",
+  "releaseVersion": "r2",
   "artifacts": [
     "policy-mediation.zip"
   ],
   "pullRequest": {
-    "url": "",
-    "title": "",
-    "mergedAt": ""
+    "url": "https://github.com/wso2-cicd/policy-mediation/pull/5",
+    "title": "Update addHeader.yaml",
+    "mergedAt": "2025-06-24T03:28:11Z"
   }
 }
