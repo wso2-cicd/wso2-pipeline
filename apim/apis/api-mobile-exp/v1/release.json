@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "wso2-cicd/api-mobile-exp",
+  "releaseVersion": "r2",
+  "artifacts": [
+    "api-mobile-exp.zip"
+  ],
+  "pullRequest": {
+    "url": "",
+    "title": "",
+    "mergedAt": ""
+  }
+}
